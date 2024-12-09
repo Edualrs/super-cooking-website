@@ -1,0 +1,40 @@
+* {
+    padding: 0;
+    margin: 0;
+  
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    /* background: linear-gradient(to bottom, #DCC9B6, #A39171) no-repeat; */
+    background-color: #DCC9B6;
+    height: 100vh;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 40px;
+}
+
+h2 {
+    font-size: 34px;
+    color: #2E282A;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 24px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #2E282A;
+}
