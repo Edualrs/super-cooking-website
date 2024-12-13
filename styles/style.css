@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Instrument Serif", serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: 4vh 12vw 4vh 4vw;
+}
+
+h1 {
+    font-size: 8rem;
+    font-weight: 400;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 5vw;
+    font-size: 3.2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero-image {
+    display: flex;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.hero-image h3 {
+    font-size: 6rem;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    font-weight: 400;
+
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    border-radius: 20px;
+}
+
+.curiosities {
+    display: flex;
+    align-items: center;
+
+    padding: 0 0 0 6vw;
+
+    height: 50vh;
+    background-color: #E37100;
+    background-image: url('../images/poke.png');
+    background-repeat: no-repeat;
+    background-position-x: 104%;
+    background-position-y: 75%;
+}
+
+.curiosities p {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.curiosities p a {
+    color: #fff;
+    text-decoration: underline 2px;
+}
+
+.coockbook {
+    display: inline-block;
+    height: 100vh;
+
+    padding: 10vh 0 0 0;
+}
+
+.coockbook h2 {
+    font-size: 6rem;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: underline 2px;
+}
+
+.grid {
+    font-size: 3rem;
+
+    display: grid;
+    grid-template-areas: "a b";
+    gap: 50px;
+    grid-auto-columns: auto;
+
+    margin: 15vh 10vw;
+}
+
+.grid > div {
+    display: flex;
+    align-items: center;
+}
+
+.grid div img {
+    width: 40%;
+    padding-right: 2vw;
+}
+
+.coockbook a {
+    font-size: 5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coockbook a img {
+    padding: 0 0 0 20px;
+}
+
+.chef {
+    height: 80vh;
+    margin: 20vh 10vw;
+}
+
+.chef div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chef div img {
+    width: 45%;
+}
+
+.chef div h2 {
+    font-size: 6rem;
+    font-weight: 400;
+}
+
+.chef p {
+    font-size: 2.8rem;
+    margin-top: 10vh;
+}
+
+footer {
+    height: 30vh;
+}
+
+footer h3 {
+    font-size: 4rem;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 2rem;
+    font-weight: 400;
+
+    display: flex;
+    justify-content: center;
+}
+
+footer .direitos {
+    margin-top: 5vh;
+}
